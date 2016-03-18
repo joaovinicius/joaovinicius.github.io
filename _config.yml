@@ -7,7 +7,7 @@ external-image: false
 picture: 'assets/images/profile.jpg'
 
 url: joaovinicius.com
-# your url: http://USERNAME.github.io
+# your url: http://joaovinicius.github.io
 
 permalink: /:title/
 
