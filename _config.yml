@@ -1,12 +1,12 @@
 # main text of home
 name: João Vinicius
-bio: 'Aprender a programar e ajude organizações sem fins lucrativos.'
+bio: 'Eu ensino a programar ajudando organizações sem fins lucrativos.'
 
 # if it's an external image, update below for true
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: http://joaovinicius.com
+url: http://127.0.0.1:4000
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -14,7 +14,7 @@ permalink: /:title/
 markdown: kramdown
 highlighter: rouge
 
-analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'UA-25266315-1'
 
 # if you don't want comments in your posts, set to false
 disqus: joaovinicius
