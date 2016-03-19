@@ -1,12 +1,12 @@
 # main text of home
 name: João Vinicius
-bio: 'Ensino a programar ajudando organizações sem fins lucrativos.'
+bio: 'Ensino programação ajudando organizações sem fins lucrativos.'
 
 # if it's an external image, update below for true
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: /
+url: http://joaovinicius.github.io
 # your url: http://joaovinicius.github.io
 
 permalink: /:title/
