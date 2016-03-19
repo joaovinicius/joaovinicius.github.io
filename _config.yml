@@ -6,7 +6,7 @@ bio: 'Ensino programação ajudando organizações sem fins lucrativos.'
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-url: /
+url: http://joaovinicius.github.io
 # your url: http://joaovinicius.github.io
 
 permalink: /:title/
