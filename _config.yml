@@ -5,8 +5,8 @@ bio: 'Olá, meu nome é João Vinicius, moro em Balneário Camboriú-Sc, sou pro
 
 # if it's an external image, update below for true
 external-image: false
-picture: 'assets/images/profile.jpg'
-logo: 'assets/images/logo.png'
+picture: "assets/images/profile.jpg"
+logo: "assets/images/logo.png"
 
 url: "http://www.joaovinicius.com"
 # your url: http://joaovinicius.github.io
