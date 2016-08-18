@@ -1,25 +1,28 @@
 ---
-title: "Markdown Extra Components"
+title: Componentes extras de markdown
 layout: post
-date: 2016-02-24 22:48
+date: '2016-08-08 10:30'
 tag:
 - markdown
-- components
+- componentes
 - extra
 blog: true
+star: true
 ---
 
-## Summary:
+## Sumário:
 
-You can pick as item to see how to apply in markdown.
+Escolha um item para ver a aplicação no markdown.
 
 #### Especial Elements
-- [Evidence](#evidence)
-- [Side-by-Side](#side-by-side)
+
+- [Evidência](#evidence)
+- [Lado a lado](#side-by-side)
 - [Star](#star)
-- [Especial Breaker](#especial-breaker)
+- [Linha especial](#especial-breaker)
 
 #### External Elements
+
 - [Gist](#gist)
 - [Codepen](#codepen)
 - [Slideshare](#slideshare)
@@ -27,29 +30,29 @@ You can pick as item to see how to apply in markdown.
 
 ---
 
-## Evidence
+## Evidência {#evidence}
 
-You can try the evidence!
+Você pode usar evidências!
 
-<span class="evidence">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
+<span class="evidence">Parágrafos podem ser escrito como tal. Um parágrafo é um bloco básico de markdown. Um parágrafo é o que o texto vai ser quando não há nenhuma razão para ser outra coisa.</span>
 
 {% highlight html %}
-<span class="evidence">Paragraphs can be written like so. A paragraph is the basic block of Markdown. A paragraph is what text will turn into when there is no reason it should become anything else.</span>
+<span class="evidence">Parágrafos podem ser escrito como tal. Um parágrafo é um bloco básico de markdown. Um parágrafo é o que o texto vai ser quando não há nenhuma razão para ser outra coisa.</span>
 {% endhighlight %}
 
 ---
 
-## Side-by-side
+## Lado a lado {#side-by-side}
 
-Like the [Medium](https://medium.com/) component.
+Assim como no [Medium](https://medium.com/).
 
-**Image** on the left and **Text** on the right:
+**Imagem** a esquerda e **Texto** a direita:
 
 {% highlight html %}
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">João Vinicius</figcaption>
     </div>
 
     <div class="toright">
@@ -61,7 +64,7 @@ Like the [Medium](https://medium.com/) component.
 <div class="side-by-side">
     <div class="toleft">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">João Vinicius</figcaption>
     </div>
 
     <div class="toright">
@@ -69,7 +72,7 @@ Like the [Medium](https://medium.com/) component.
     </div>
 </div>
 
-**Text** on the left and **Image** on the right:
+**Texto** a esquerda e **Imagem** a direita:
 
 {% highlight html %}
 <div class="side-by-side">
@@ -79,7 +82,7 @@ Like the [Medium](https://medium.com/) component.
 
     <div class="toright">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">João Vinicius</figcaption>
     </div>
 </div>
 {% endhighlight %}
@@ -91,15 +94,15 @@ Like the [Medium](https://medium.com/) component.
 
     <div class="toright">
         <img class="image" src="{{ site.url }}/{{ site.picture }}" alt="Alt Text">
-        <figcaption class="caption">Photo by John Doe</figcaption>
+        <figcaption class="caption">João Vinicius</figcaption>
     </div>
 </div>
 
 ---
 
-## Star
+## Star {#star}
 
-You can give evidence to a post. Just add the tag to the markdown file.
+Você pode evidenciar um post. É só adicionar a tag ao arquivo markdown.
 
 {% highlight raw %}
 star: true
@@ -107,9 +110,9 @@ star: true
 
 ---
 
-## Especial Breaker
+## Linha especial {#especial-breaker}
 
-You can add a especial *hr* to your text.
+Você pode adicionar um *hr* especial ao seu texto.
 
 {% highlight html %}
 <div class="breaker"></div>
@@ -119,21 +122,21 @@ You can add a especial *hr* to your text.
 
 ---
 
-## Gist
+## Gist {#gist}
 
-You can add Gists from github.
+Você pode adicionar Gists do github.
 
 {% highlight raw %}
-{ % gist sergiokopplin/5afb058da029a13de73e % }
+{ % gist sergiokopplin/91ff4220480727b47224245ee2e9c291 % }
 {% endhighlight %}
 
-{% gist sergiokopplin/5afb058da029a13de73e %}
+{% gist sergiokopplin/91ff4220480727b47224245ee2e9c291 %}
 
 ---
 
-## Codepen
+## Codepen {#codepen}
 
-You can add Pens from Codepen.
+Você pode adicionar Pens do Codepen.
 
 {% highlight html %}
 <p data-height="268" data-theme-id="0" data-slug-hash="gfdDu" data-default-tab="result" data-user="chriscoyier" class='codepen'>
@@ -147,9 +150,9 @@ You can add Pens from Codepen.
 
 ---
 
-## Slideshare
+## Slideshare {#slideshare}
 
-Add your presentations here!
+Você pode adicionar suas apresentações aqui!
 
 {% highlight html %}
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/hqDhSJoWkrHe7l" width="560" height="310" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
@@ -159,11 +162,11 @@ Add your presentations here!
 
 ---
 
-## Videos
+## Videos {#videos}
 
-Do you want some videos? Youtube, Vimeo or Vevo? Copy the embed code and paste on your post!
+Você deseja alguns videos? Youtube, Vimeo ou Vevo? Copie o código de incorporação e cole no seu post!
 
-**Example**
+**Exemplo**
 
 {% highlight html %}
 <iframe width="560" height="310" src="https://www.youtube.com/embed/r7XhWUDj-Ts" frameborder="0" allowfullscreen></iframe>
@@ -177,3 +180,5 @@ Do you want some videos? Youtube, Vimeo or Vevo? Copy the embed code and paste o
 [4]: http://daringfireball.net/projects/markdown/basics
 [5]: http://daringfireball.net/projects/markdown/syntax
 [6]: http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg
+
+Tradução do [post](https://koppl.in/indigo/markdown-extra-components/){: target="_blank" }.

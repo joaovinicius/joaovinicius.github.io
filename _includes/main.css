@@ -301,7 +301,7 @@ h4 {
   font-size: 1.6rem;
 }
 a {
-  color: #4b0082;
+  color: #666;
   text-decoration: underline;
 }
 p {
@@ -455,14 +455,16 @@ pre {
             transform: translateY(0);
   }
 }
-.home,
+.desenvolvedor.web,
 .blog,
-.projects {
+.sobre,
+.projetos {
   margin-top: 125px;
 }
 .home > .list,
 .blog > .list,
-.projects > .list {
+.sobre > .list,
+.projetos > .list {
   border-top: 1px solid #ededed;
   margin-top: 30px;
   padding-top: 40px;
@@ -470,7 +472,8 @@ pre {
 }
 .home > .list:before,
 .blog > .list:before,
-.projects > .list:before {
+.sobre > .list:before,
+.projetos > .list:before {
   display: block;
   content: " ";
   width: 7px;
@@ -486,14 +489,14 @@ pre {
 }
 .home > .list > .item,
 .blog > .list > .item,
-.projects > .list > .item {
+.projetos > .list > .item {
   display: block;
   width: 95%;
   margin: 0 auto;
 }
 .home > .list > .item > .url,
 .blog > .list > .item > .url,
-.projects > .list > .item > .url {
+.projetos > .list > .item > .url {
   width: 100%;
   display: block;
   padding: 20px 0;
@@ -501,7 +504,7 @@ pre {
 }
 .home > .list > .item > .url > .title,
 .blog > .list > .item > .url > .title,
-.projects > .list > .item > .url > .title {
+.projetos > .list > .item > .url > .title {
   margin: 0;
   width: 75%;
   font-weight: 500;
@@ -510,12 +513,12 @@ pre {
 }
 .home > .list > .item:hover > .url > .title,
 .blog > .list > .item:hover > .url > .title,
-.projects > .list > .item:hover > .url > .title {
-  color: #4b0082;
+.projetos > .list > .item:hover > .url > .title {
+  color: #666;
 }
 .home > .list aside,
 .blog > .list aside,
-.projects > .list aside {
+.projetos > .list aside {
   position: relative;
   top: 2px;
   margin: 0;
@@ -529,29 +532,44 @@ pre {
 }
 .home > .list .item:hover .url aside,
 .blog > .list .item:hover .url aside,
-.projects > .list .item:hover .url aside {
+.projetos > .list .item:hover .url aside {
   color: #666;
 }
-.projects > .list > .item > .url > .title {
+.projetos > .list > .item > .url > .title {
   display: inline;
 }
-.projects > .list > .item > .url > .emoji {
+.projetos > .list > .item > .url > .emoji {
   display: inline;
   position: relative;
   top: -4px;
   margin-right: 10px;
 }
-.page {
+.sobre {
   margin-top: 125px;
 }
-.page > h1 {
+.sobre > h1 {
   text-align: center;
   margin-bottom: 6rem;
 }
-.about img {
-  width: 50%;
-  margin: 0 auto;
-  display: block;
+.sobre-ruler {
+    display: block;
+content: " ";
+width: 7px;
+height: 7px;
+border: #ededed 1px solid;
+position: absolute;
+top: -5px;
+left: 50%;
+margin-left: -5px;
+background: #fff;
+box-shadow: #fff 0 0 0 5px;
+border-radius: 3px;
+}
+.sobre img {
+    margin: 30px auto;
+    width: 100px;
+    border-radius: 100%;
+    display: block;
 }
 .post {
   margin-top: 125px;
@@ -660,7 +678,7 @@ pre {
   font-size: 1.6rem;
 }
 .tag-list > .list > .item:hover > .url > .title {
-  color: #4b0082;
+  color: #666;
 }
 .tag-list > .list aside {
   position: relative;
@@ -809,7 +827,7 @@ pre {
   margin: 0;
 }
 .footer-main > .link > .icon:hover {
-  fill: #4b0082 !important;
+  fill: #666 !important;
 }
 .footer-main > .extra {
   color: #aaa;
@@ -904,9 +922,11 @@ pre {
   -webkit-transition: all 0.4s ease-in-out;
           transition: all 0.4s ease-in-out;
   width: 70px;
+  border-bottom: 1px solid #fff;
 }
-.nav-home > .list > .item > .link:hover {
-  color: #666;
+.nav-home > .list > .item > .link:hover, .nav-home > .list > .item > .link.active{
+    color: #000;
+    border-bottom: 1px solid #000;
 }
 .evidence {
   background-image: -webkit-linear-gradient(top, rgba(39,243,106,0.15), rgba(39,243,106,0.15));
@@ -1131,7 +1151,7 @@ pre {
   width: 35px;
 }
 .social-links > .link:hover > .icon {
-  fill: #4b0082;
+  fill: #666;
 }
 .social-links > .link:hover:before {
   opacity: 1;
@@ -1184,4 +1204,7 @@ pre {
 .social-links > .icon {
   -webkit-transition: all ease-in-out 0.2s;
           transition: all ease-in-out 0.2s;
+}
+.pull-center {
+    margin: 0 auto;
 }
