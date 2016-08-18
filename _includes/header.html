@@ -10,7 +10,7 @@
         <a class="link" href="{{ site.url }}/">
             <img class="selfie" alt="{{ site.name }}" src="
                 {% if site.external-image == true %}
-                    {{ site.logo }}
+                    {{ site.url }}/{{ site.logo }}
                 {% else %}
                     {% if page.title != 'Sobre' %}
                         {{ site.url }}/{{ site.logo }}
