@@ -8,17 +8,7 @@
 {% if showHeader == true %}
     <header class="header-home {% if site.animation %}animated{% endif %}">
         <a class="link" href="{{ site.url }}/">
-            <img class="selfie" alt="{{ site.name }}" src="
-                {% if site.external-image == true %}
-                    {{ site.url }}/{{ site.logo }}
-                {% else %}
-                    {% if page.title != 'Sobre' %}
-                        {{ site.url }}/{{ site.logo }}
-                    {% else %}
-                        {{ site.url }}/{{ site.picture }}
-                    {% endif %}
-                {% endif %}"
-             />
+            <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image == true %}{{ site.url }}/{{ site.logo }}{% else %}{% if page.title != 'Sobre' %}{{ site.url }}/{{ site.logo }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}{% endif %}" />
         </a>
         <h1 class="description">{{ site.bio }}</h1>
 
