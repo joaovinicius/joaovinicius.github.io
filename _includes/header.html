@@ -13,9 +13,9 @@
                     {{ site.logo }}
                 {% else %}
                     {% if page.title != 'Sobre' %}
-                        {{ site.url }}/{{ site.logo }}
+                        {{ site.url }}/{{ site.logo | cgi_escape }}
                     {% else %}
-                        {{ site.url }}/{{ site.picture }}
+                        {{ site.url }}/{{ site.picture | cgi_escape  }}
                     {% endif %}
                 {% endif %}"
              />
