@@ -13,12 +13,11 @@
                     {{ site.logo }}
                 {% else %}
                     {% if page.title != 'Sobre' %}
-                        {{ site.url }}/{{ site.logo | slugify: 'pretty' }}
+                        {{ site.logo }}
                     {% else %}
-                        {{ site.url }}/{{ site.picture | slugify: 'pretty'  }}
+                        {{ site.picture }}
                     {% endif %}
-                {% endif %}"
-             />
+                {% endif %}"/>
         </a>
         <h1 class="description">{{ site.bio }}</h1>
 
