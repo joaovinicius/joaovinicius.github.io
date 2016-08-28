@@ -56,6 +56,7 @@ Colaborei em projetos com ótimas equipes, tive colegas fantásticos que me ensi
 
 - Facebook: [joaoviniciusjs](https://www.facebook.com/joaoviniciusjs){: target="_blank"}.
 - Twitter: [joaoviniciusjs](https://www.twitter.com/joaoviniciusjs){: target="_blank"}.
+- FreeCodeCamp: [joaovinicius](https://www.freecodecamp.com/joaovinicius){: target="_blank"}.
 - Github: [joaovinicius](https://www.github.com/joaovinicius){: target="_blank"}.
 
 ## Localização
