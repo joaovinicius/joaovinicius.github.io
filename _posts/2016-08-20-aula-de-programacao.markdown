@@ -1,7 +1,7 @@
 ---
 title: Aula de Programação
 layout: post
-date: '2016-04-20 10:00'
+date: '2016-08-20 10:00'
 tag:
   - projetos
   - aulas
@@ -23,7 +23,7 @@ Torne-se [Full Stack](https://en.wikipedia.org/wiki/Solution_stack#Full-stack_de
 
 O [freeCodeCamp](https://www.freecodecamp.com/){: target="_blank" } é um site interativo e gratuito que ensina programação através do navegador.
 
-Nele você irá desenvolver projetos para  solucionar problemas reais de organizações sem fins lucrativos através da tecnologia. Assim, você poderá construir portfólio e ter experiência o suficiente para trabalhar.
+Nele você irá desenvolver projetos que solucionam problemas reais de organizações sem fins lucrativos através da tecnologia. Assim, você poderá construir um portfólio e ter experiência o suficiente para trabalhar.
 
 ![Learn Code](/assets/images/learn-code.png)
 
@@ -33,11 +33,11 @@ Consiga ajuda em tempo real e aprenda a programar no seu ritmo.
 
 ## Como funciona?
 
-Programar é algo difícil, para ter sucesso, você vai precisar exercícios extras e **acompanhamento particular ou em grupo** com alguém para guiar sua evolução e tirar suas dúvidas.
+Programar é algo difícil, para ter sucesso, é importante ter alguém para guiar, orientar e tirar dúvidas. Por isso, eu ofereço exercícios extras e **acompanhamento particular ou em grupo** para um progresso consistente.
 
 ## Público
 
-Qualquer pessoa que queira aprender a programar sites e aplicativos.
+Qualquer pessoa que queira aprender a programar sites e/ou aplicativos.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4iKu9qtCSXg" frameborder="0" allowfullscreen></iframe>
 
@@ -63,7 +63,7 @@ As aulas podem ser realizadas em qualquer lugar que cumpra com os reqisitos:
 
 ## Duração
 
-Como o conteúdo é todo online, a duração varia de acordo com o esforço do aluno fora de aula. De acordo com o programa é possível conquistar os quatro certificados em um ano em tempo integral.
+Como o conteúdo é todo online, a duração varia de acordo com o esforço de cada aluno. De acordo com o programa é possível conquistar os quatro certificados em um ano em tempo integral.
 
 ## Conteúdo programático
 
