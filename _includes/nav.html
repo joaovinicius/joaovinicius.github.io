@@ -8,9 +8,11 @@
         <li class="item">
             <a class="link {% if page.title == "Blog" %}active{% endif %}" href="{{ site.url }}/blog">Blog</a>
         </li>
-        <li class="item">
-            <a class="link {% if page.title == "Projetos" %}active{% endif %}" href="{{ site.url }}/projects">Projetos</a>
-        </li>
+        {% if site.projects %}
+            <li class="item">
+                <a class="link {% if page.title == "Projetos" %}active{% endif %}" href="{{ site.url }}/projects">Projetos</a>
+            </li>
+        {% endif %}
         <li class="item">
             <a class="link {% if page.title == "Sobre" %}active{% endif %}" href="{{ site.url }}/about">Sobre</a>
         </li>
