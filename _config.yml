@@ -1,6 +1,6 @@
 # main text of home
 name: João Vinicius
-bio: 'Olá, meu nome é João Vinicius, moro em Balneário Camboriú-Sc, sou professor de programação e desenvolvedor web.'
+bio: 'Olá, meu nome é João Vinicius, moro em Guarapuava-Pr e trabalho como rebocador da web.'
 
 
 # if it's an external image, update below for true
@@ -48,7 +48,7 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+# projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
