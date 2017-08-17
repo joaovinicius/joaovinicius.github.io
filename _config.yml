@@ -8,7 +8,7 @@ external-image: false
 picture: "assets/images/profile.jpg"
 logo: "assets/images/logo.png"
 
-url: "http://joaovinicius.github.io"
+url: "https://joaovinicius.github.io"
 # your url: http://joaovinicius.github.io
 
 permalink: /:title/
