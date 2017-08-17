@@ -1,6 +1,6 @@
 # main text of home
 name: João Vinicius
-bio: 'Olá, meu nome é João Vinicius, sou de Guarapuava-PR e trabalho como rebocador da web.'
+bio: 'Olá, meu nome é João Vinicius, sou de Guarapuava, Pr e trabalho como rebocador da web.'
 
 
 # if it's an external image, update below for true
@@ -27,7 +27,7 @@ disqus: joaovinicius
 # if you don't have any of social below, comment the line
 freecodecamp: joaovinicius
 # facebook: myfacebook
-# twitter: joaoviniciusjs
+# twitter: mytwitter
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
@@ -36,7 +36,7 @@ freecodecamp: joaovinicius
 # spotify: myspotify
 github: joaovinicius
 # medium: medium
-# email: contato@joaovinicius.com
+# email: email@email.com
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
