@@ -6,7 +6,7 @@ layout: page
 permalink: /about/index.html
 ---
 
-Olá, meu nome é João Vinicius de Paula, tenho 29 anos, natural de Guarapuava-Pr, trabalho com desenvolvimento web na [Lets Grow](http://letsgrow.com.br/) e buscando me certificar pelo [freeCodeCamp](https://www.freecodecamp.org/).
+Olá, meu nome é João Vinicius de Paula, tenho 29 anos, natural de Guarapuava-Pr, trabalho com desenvolvimento web na [Lets Grow](http://letsgrow.com.br/) e busco me certificar pelo [freeCodeCamp](https://www.freecodecamp.org/).
 
 Trabalho com desenvolvimento web desde 2007 e durante esse período tive a oportunidade de trabalhar com várias tecnologias atuando como back-end, front-end e full-stack.
 
