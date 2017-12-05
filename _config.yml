@@ -19,7 +19,7 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 
-analytics-google: 'UA-25266315-1'
+analytics-google: 'UA-110659446-1'
 
 # if you don't want comments in your posts, set to false
 disqus: joaovinicius
